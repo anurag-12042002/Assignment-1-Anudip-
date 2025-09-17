@@ -1,0 +1,23 @@
+four cascading rules
+
+1.> IMPORTANCE 
+(!important>inline>class>external/internal>browser)
+
+2.> Specificity :-
+ (inline>id>class>element)
+
+3.> Source order:-
+(Last rule wins)
+
+4.> Inheritance :-
+(if nothing is set, check parent's style)
+
+
+#TYPE OF SELECTOR
+
+**> universal selector Symbol :- *{ }
+**>element selector  Symbol :- tag{ }
+**>ID selector Symbol :- #{ }
+**> class selector Symbol :- .{ }
+**> group selector Symbol :- ,
+**> child selector Symbol :- > { }
